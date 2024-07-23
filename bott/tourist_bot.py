@@ -188,7 +188,7 @@ def handle_message(update, context):
 # Функция main, запускающая бота
 def main():
     # Инициализация бота
-    updater = Updater(token='7251114022:AAHqrs9311af7lQ8NIC5elZ0aZ8u8HCgPeY', use_context=True)
+    updater = Updater(token='какой то токен)', use_context=True)
     dp = updater.dispatcher
 
     # Определение состояний и переходов между ними
